@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "jimp": "^0.16.1",
+    "nodemon": "^2.0.16",
+    "yargs": "^17.5.1"
+  },
+  "scripts": {
+    "start": "npx nodemon"
+  },
+  "name": "desafio4",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}

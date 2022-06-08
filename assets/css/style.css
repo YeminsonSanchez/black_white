@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  background-image: url("https://images.pexels.com/photos/3135801/pexels-photo-3135801.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 75vh;
+  padding: 2vh 0 0 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-size: 1.5rem;
+  display: block;
+}
+
+#text {
+  font-size: 3em;
+  margin-top: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#img {
+  margin: 1em 0;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 2em;
+}
+
+.container {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 840px;
+  height: 22px;
+  flex-wrap: wrap;
+}
+
+button {
+  margin-top: 20px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+  color: #000000;
+  padding: 1rem;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #000000;
+}
+
+#errButton {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+button:hover > a {
+  color: white;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  color: rgb(128, 125, 125);
+  text-align: center;
+  max-width: min-content;
+}
+.container_titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: fit-content;
+  flex-direction: column;
+}
+
+.black {
+  color: white;
+  -webkit-text-stroke: 4px #000000;
+}
+
+.and {
+  color: rgb(41, 41, 41);
+  -webkit-text-stroke: 3px #ffffff;
+}
+
+.white {
+  color: black;
+  -webkit-text-stroke: 3px #ffffff;
+}
+
+.spa {
+  color: rgb(228, 228, 228);
+  -webkit-text-stroke: 4px #000000;
+}
